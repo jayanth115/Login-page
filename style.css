@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("photo-1.avif");
+    background-size: 100% 740px;    
+}
+
+.container{
+    text-align: center;
+    width: 350px;
+    height: 500px;
+    /* background-color: black; */
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(5px);
+    margin-left: 37%;
+    margin-top: 9%;
+    color: white;
+    border-radius: 20px;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 200;
+    
+}
+
+.container .text{
+    position: relative;
+    top:7%;
+}
+
+.int1{
+    margin-top: 20px;
+    border: none;
+    background-color:antiquewhite;
+    border-bottom: 1.5px solid white;
+    width: 250px;
+    font-size: 17px;
+    margin-top: 40px;
+    outline: none;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.text button{
+    width: 235px;
+    height: 40px;
+    background-color: aqua;
+    color: black;
+    border: none;
+    font-size: 20px;
+    border-radius: 25px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+button:hover{
+    border:3px solid aqua;
+    color: white;
+    background-color: black;
+    font-size:20px;
+}
+
+p{
+    margin-top: 50px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+p span{
+    color: rgb(97, 137, 183);
+    cursor: pointer;
+}
+
+.container h1{
+    font-size: 36px;
+    color:white;
+}
